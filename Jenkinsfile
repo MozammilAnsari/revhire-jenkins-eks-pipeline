@@ -7,7 +7,7 @@ pipeline {
                 checkout scmGit(
                     branches: [[name: '*/main']],
                     extensions: [],
-                    userRemoteConfigs: [[url: 'https://github.com/MozammilAnsari/revhire-jenkins-pipeline.git']]
+                    userRemoteConfigs: [[url: 'https://github.com/MozammilAnsari/revhire-jenkins-eks-pipeline.git']]
                 )
             }
         }
